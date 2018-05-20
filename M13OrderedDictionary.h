@@ -819,7 +819,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param key The key for the entry to remove.*/
 - (void)removeObjectForKey:(M13GenericType(KeyType, id<NSCopying>))key;
 /** Removes the entries for the given keys.
- @param key The keys for the entries to remove.*/
+ @param keys The keys for the entries to remove.*/
 - (void)removeObjectsForKeys:(NSArray M13Generics(KeyType) *)keys;
 /** Removes all the entries in the ordered dictionary.*/
 - (void)removeAllObjects;
